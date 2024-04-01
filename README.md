@@ -31,7 +31,7 @@ Print two space-separated long integers denoting the respective minimum and maxi
 10 14
 
 # Front-end: ReactJs Joke App
-Deployed link: gens-two.vercel.app
+Deployed link: https://gens-two.vercel.app/
 
 This ReactJS app will display a single joke for the user to read. After reading the joke, the user can like or dislike the joke. The app will record the vote in the database and then show another joke for the user to read. When there are no more jokes to show, the app will display a "That's all the jokes for today! Come back another day!" message.
 
