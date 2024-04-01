@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.navbar-logo, .navbar-logo_right{
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+.navbar-logo_right{
+    display: flex;
+    width: 100%;
+}
+.logo-title{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo-title p {
+    white-space: nowrap;
+    margin: 0;
+}
+.navbar img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

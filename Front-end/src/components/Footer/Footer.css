@@ -1,0 +1,10 @@
+
+hr{
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 576px) {
+    hr {
+        margin-bottom: 20px;
+    }
+}

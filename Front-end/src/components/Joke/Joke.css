@@ -1,0 +1,14 @@
+.joke {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .joke {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    hr{
+        margin: 20px 0;
+    }
+}

@@ -1,0 +1,31 @@
+.slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #29b363;
+    height: 100px;
+    text-align: center;
+    padding: 50px 0;
+}
+.slogan-title {
+    margin: 0;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.slogan-description {
+    margin: 0;
+    color: #f1faf5;
+}
+
+@media screen and (max-width: 576px) {
+    .slogan-container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .slogan-description {
+        padding: 0 10px;
+    }
+}
+
